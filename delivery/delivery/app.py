@@ -1,6 +1,7 @@
 import views
 from flask import Flask
 
+
 def create_app():
     """
         Factory Principal

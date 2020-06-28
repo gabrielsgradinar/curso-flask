@@ -1,11 +1,11 @@
 from flask import Flask
-
+from delivery.ext import site
 
 def create_app():
     """
         Factory Principal
     """
     app = Flask(__name__)
-    # views.init_app(app)
+    site.init_app(app)
     # __name__ = nome do módulo
     return app

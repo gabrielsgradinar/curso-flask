@@ -16,3 +16,7 @@ install:
 
 test:
 	pytest tests/ -v --cov=delivery
+
+run:
+	export FLASK_APP=delivery/app.py
+	flask run

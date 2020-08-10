@@ -21,7 +21,11 @@ init_db:
 	FLASK_APP=delivery/app.py flask create-db
 	FLASK_APP=delivery/app.py flask db upgrade
 
-run:
-	FLASK_APP=delivery/app.py flask run
+format:
+	isort **/*.py
+	black -l 79 **/*.py
+
+run-dev:
+	FLASK_ENV=development FLASK_APP=delivery/app.py flask run
 
 

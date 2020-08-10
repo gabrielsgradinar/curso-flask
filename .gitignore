@@ -133,4 +133,4 @@ dmypy.json
 *.vscode/
 
 #db
-delivery/delivery.db
+./delivery/delivery.db

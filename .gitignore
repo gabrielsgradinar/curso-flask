@@ -133,4 +133,6 @@ dmypy.json
 *.vscode/
 
 #db
-./delivery/delivery.db
+delivery/delivery/delivery.db
+
+delivery/.secrets.toml

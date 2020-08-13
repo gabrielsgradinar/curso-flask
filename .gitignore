@@ -136,3 +136,5 @@ dmypy.json
 delivery/delivery/delivery.db
 
 delivery/.secrets.toml
+
+delivery/uploads
